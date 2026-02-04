@@ -1,0 +1,11 @@
+.mhd-body {
+	background-color: #731928;
+	color: #ffffff;
+	font-family: "Georgia", serif;
+}
+.mhd-header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
