@@ -1,11 +1,47 @@
+html {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+a {
+	color: inherit;
+	text-decoration: inherit;
+}
+
 .mhd-body {
 	background-color: #731928;
-	color: #ffffff;
+	color: #fff8dc;
 	font-family: "Georgia", serif;
+	width: 100%;
+	max-width: 800px;
+}
+.mhd-header-break {
+	width: 100%;
 }
 .mhd-header {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+}
+.mhd-header-text {
+	padding: 30px 0;
+	font-size: 48px;
+	font-weight: 800;
+}
+
+
+.mhd-header-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+.mhd-header-link {
+	font-size: 30px;
+	font-weight: 400;
 }
